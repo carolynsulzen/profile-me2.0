@@ -45,6 +45,12 @@ div{display:flex;
 
 div > form{display: flex;
           flex-direction: column;}
+
+#fullname:after{content:"First and Last Name";
+      color: red;
+      position: relative;
+      margin-top: 5px;}
+      
 input{width: 100%;
       padding: 5px 5px;
       margin: 8px 0;
